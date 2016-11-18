@@ -1,0 +1,53 @@
+<html>
+    <head></head>
+    <style>
+        .content {
+            display: inline-block;
+            height: 2000px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+        #sidebar {
+            display: inline-block;
+            width: 300px;
+            border: 2px solid red;
+            box-sizing: border-box;
+            vertical-align: top;
+            border-bottom: 3px solid black;
+            margin-left: -4px;
+            position: relative;
+        }
+
+        p {
+            margin-top: 50px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="content">
+                
+            </div>
+            <aside id="sidebar">
+                <p>startstartstart</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>middlemiddle</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>lastlastlast</p>
+            </aside>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="sidebar_scroll.js"></script>
+        <script>
+            enableScroll('#sidebar');
+        </script>
+    </body>
+</html>
